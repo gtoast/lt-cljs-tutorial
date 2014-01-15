@@ -91,7 +91,7 @@ lt-cljs-tutorial/x
 ;; ClojureScript also supports a short hand function literal which is useful
 ;; You can use the % and %N placeholders to represent function arguments.
 
-(def the-identity #(%))
+(def the-identity #(-> %))
 
 ;; You should not abuse the function literal notation as it degrades readability
 ;; outside of simple cases. It is nice for simple functional cases such as
